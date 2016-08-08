@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 18px Pacifico;
+	color: #FFF;
+  background-image:url("http://i.giphy.com/gmAlNzX2rxzIA.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#picbox {
+	margin: 0px auto;
+	width: 640px;
+}
+#boxcard {
+	z-index: 1;
+	margin: 10px 0 0;
+}
+#boxcard div{
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	padding: 5px;
+	border: 4px solid tranparent;
+	cursor: pointer;
+	border-radius: 50px;
+	box-shadow: 0 1px 5px rgba(0,0,0,.5);
+  background-image:url("https://s-media-cache-ak0.pinimg.com/236x/ef/12/39/ef1239c699a298eed953e4ef5ba05d7a.jpg");
+	z-index: 2;
+}
+#boxcard div img {
+	display: none;
+	border-radius: 10px;
+	z-index: 3;
+}
+#boxbuttons {
+	text-align: center;
+	margin: 20px;
+	display: block;
+}
+#boxbuttons .button {
+	text-transform: uppercase;
+	background: violet;
+	padding: 5px 10px;
+	margin: 5px;
+	border-radius: 50px;
+	cursor: pointer;
+}
+#boxbuttons .button:hover {
+	background: transparent;
+}
